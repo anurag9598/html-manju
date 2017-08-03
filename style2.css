@@ -1,0 +1,50 @@
+
+#trans{
+    width:200px;
+    height: 200px;
+    background-color:goldenrod;
+    /*transition: width 5s,height 5s
+    transform:rotate(60deg);*/
+}
+/*h3:nth-child(3){
+    color:magenta;
+}*/
+#trans:hover{
+    transform: translateY(150px)
+    /*transform:rotateZ(60deg);
+    transform: scaleY(2);
+    transform: skewX(40deg);*/
+}
+h3:nth-last-of-type(odd){
+    color:mediumslateblue;
+}
+
+.box{
+    height: 200px;
+    width:200px;
+    background-color: darkorchid;
+}
+p{
+    visibility: hidden;
+}
+
+.box:hover {
+    background-color: yellowgreen;
+    height: 400px;
+    width:400px;
+
+}
+
+span{
+   color:red;
+}
+.head:hover{
+    font-size: 100px;
+}
+
+a:link{
+    color:olive;
+};
+a:visited{
+    color:green;
+}
