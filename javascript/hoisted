@@ -16,5 +16,5 @@ function add(a){
     return sum
 }
 
-add(a)
+add(a);
 a =10;

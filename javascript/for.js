@@ -3,16 +3,11 @@ for(i=0;i<10;i++){
 }
 
 
-true true true false
-false false true true
-true true  true false
-true false false true
-
 for(i=10;i>=0;i--){
     console.log(i)
 }
 
-var a = "manju"
+var a = "navneth"
 var name=""
 for(i=a.length;i>=0;i--){
     name +=a[i]
