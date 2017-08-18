@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script>
+            function upper(){
+                var x = document.getElementById("fname");
+                if(x.value.length>5){
+                    alert("enter less char")
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="fname" onblur="upper()"><br>
+        <input type="text" id="lname" ><br>
+        <input type="button" onclick="add('adding')" value="add">
+        <input type="button" onclick="add('minus')" value="sub">
+
+        <script>
+            function add(a){
+               var d = 10;
+               var b = 20;
+              if(a=='minus'){
+                  alert("Sdfd"d-b)
+              }else if(a=='adding'){
+                  alert(d+b)
+              }
+
+
+            }
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+            function upper(){
+                var x = document.getElementById("fname");
+                if(x.value.length>5){
+                    alert("enter less char")
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="fname" onblur="upper()"><br>
+        <input type="text" id="lname" ><br>
+        <input type="button" onclick="add()" value="click me">
+
+        <script>
+            function add(){
+                alert("i am clicked");
+            }
+        </script>
+
+    </body>
+</html>
