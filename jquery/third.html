@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <style>
+            .hidden{
+                display: none;
+            }
+            .complete{
+                text-decoration: line-through;
+            }
+766339517            
+        </style>
+        <script>
+        function doIt(){
+            var toDos=$('.js-to-dos');
+            toDos.parent().removeClass('hidden')
+        }
+        function first(){
+            $('.first').addClass('complete')
+        
+        }
+        function second(){
+            $('.second').addClass('complete')
+        
+        }
+        function third(){
+            $('.third').addClass('complete')
+        
+        }
+        function reset(){
+            $('.first').removeClass('complete')
+            $('.second').removeClass('complete')
+            $('.third').removeClass('complete')
+        }
+
+        </script>
+        
+
+    </head>
+    <body>
+
+       <div class="hidden js-parent-demo">
+            <ul class="js-to-dos">
+                <li class="first">Milk</li>
+                <li class="second">food</li>
+                 <li class="third">rent</li>
+                
+            </ul>
+       </div>
+       <input type="button" value="click" onclick="doIt()" name="">
+       <input type="button" value="first" onclick="first()">
+       <input type="button" value="second" onclick="second()">
+       <input type="button" value="third" onclick="third()">
+       <input type="Reset" value="Reset" onclick="reset()">
+    </body>
+</html>

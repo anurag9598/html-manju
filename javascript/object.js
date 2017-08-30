@@ -2,7 +2,7 @@ var animal = {
     color:black,
     legs:4
 }
-
+Hi this is aakash from nareshit for ang2 demo at 6:00am ist on https://zoom.us/j/3099014323
 var animal = {
     color:black,
     legs:4
