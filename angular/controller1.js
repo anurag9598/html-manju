@@ -23,7 +23,7 @@
 				.then(onUserComplete, onError)
 		}
 
-		$scope.username="";
+		$scope.username="aakashdeveloper";
 		$scope.repoSortOrder="-stargazers_count";
 	};
 	app.controller("MainController", MainController)
